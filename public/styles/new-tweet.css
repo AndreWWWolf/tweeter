@@ -1,0 +1,36 @@
+.container h2 {
+  border-bottom: 1px solid black;
+}
+
+.container textarea {
+  width: 100%;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+section.new-tweet {
+  margin: auto;
+  border: 2px solid #00a087;
+  background-color: #D3D3D3;
+  width: 450px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input, .counter {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+span.counter {
+  float: right;
+}
+
+main.container {
+  margin: auto;
+  padding: 80px 5px;
+  width: 650px;
+  background-color: white;
+}
+

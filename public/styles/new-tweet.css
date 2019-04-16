@@ -1,16 +1,12 @@
-.container h2 {
-  border-bottom: 1px solid black;
-}
-
-.container textarea {
-  width: 100%;
-  height: 75px;
-  padding: 10px;
-  border: 1px solid grey;
+main.container {
+  margin: auto;
+  padding: 80px 5px;
+  width: 650px;
+  background-color: white;
 }
 
 section.new-tweet {
-  margin: auto;
+  margin: 20px 90px;
   border: 2px solid #00a087;
   background-color: #D3D3D3;
   width: 450px;
@@ -18,19 +14,75 @@ section.new-tweet {
   border-radius: 10px;
 }
 
-input, .counter {
-  display: inline-flex;
-  justify-content: space-around;
-}
+  .new-tweet h2 {
+    border-bottom: 1px solid black;
+  }
 
-span.counter {
-  float: right;
-}
+  .new-tweet textarea {
+    width: 100%;
+    height: 75px;
+    padding: 10px;
+    border: 1px solid grey;
+  }
 
-main.container {
+  span.counter {
+    float: right;
+  }
+
+#tweet-container {
   margin: auto;
-  padding: 80px 5px;
-  width: 650px;
+  width: 450px;
+  border-radius: 2px;
+}
+#tweet-container:hover {
+  border: 2px solid #00a087;
+  opacity: 0.6;
+}
+#icons {
+  color: #00a087;
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0;
+}
+#tweet-container:hover #icons {
+  opacity: 0.8;
+}
+
+
+.tweetLogoAndName {
+  background-color: #D3D3D3;
+  display: flex;
+}
+  .tweetLogoAndName .image {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    margin: 5px;
+  }
+  .tweetLogoAndName .tweeter-ID {
+    padding: 15px 5px 0 0;
+    font-size: 75%;
+    color: grey;
+  }
+  .tweetLogoAndName h2 {
+    color: black;
+    flex-grow: 1;
+    padding: 0 0 0 5px;
+  }
+
+#tweet-container textarea {
+  width: 100%;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid grey;
+}
+.timeline {
+  display: flex;
+  flex-grow: 1;
   background-color: white;
 }
+
 
